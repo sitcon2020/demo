@@ -1,12 +1,12 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
-const teamsMnemonic = "exit better neutral theory speak fee crouch spirit mixture verb law symbol";
+const teamsMnemonic = "cherry cricket shrimp usage wing size course buddy scare two parrot lazy";
 
 
 module.exports = {
  networks: {
   development: {
     provider: function() {
-      return new HDWalletProvider(teamsMnemonic, "https://sandbox.truffleteams.com/56c1781e-4114-4bd0-a140-1f123620b410", 0, 10, false);
+      return new HDWalletProvider(teamsMnemonic, "https://sandbox.truffleteams.com/751cae55-6b87-49b1-9d77-8b7b7cd928a3", 0, 10, false);
     },
     port: 443,
     network_id: "*"
